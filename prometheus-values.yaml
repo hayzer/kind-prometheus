@@ -1,0 +1,8 @@
+prometheus:
+  prometheusSpec:
+    podMetadata:
+      labels:
+        app: prometheus
+  service:
+    labels:
+      app: prometheus
